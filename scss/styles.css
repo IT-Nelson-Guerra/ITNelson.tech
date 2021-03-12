@@ -499,7 +499,78 @@ body {
 /* Portrait and Landscape */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-    #primary {}
+        #primary {
+        margin-top: 6em;
+        margin-right: 0em;
+        margin-left: .1em;
+        height: 600px;
+        width: 350px;
+    }
+    #top-id {
+        flex-wrap: wrap;
+        width: 230px;
+        margin-top: 5px;
+        height: 10px;
+    }
+    #secondary {
+        margin-top: 35.2em;
+        margin-left: 1.5em;
+    }
+    #side-nav-id {
+        height: 600px;
+    }
+    #git-tooltip {
+        margin-top: 12em;
+    }
+    #container-1 {
+        margin-top: 3em;
+    }
+    #top-id {
+        font-size: 15px;
+        margin-left: 1px;
+    }
+    #projects-btn {
+        margin-right: 0em;
+        margin-left: 0px;
+    }
+    #about-btn {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #third {
+        margin-left: .5em;
+        font-size: 45px;
+        width: 450px;
+    }
+    #text-box-slide {
+        margin-left: 0px;
+        width: 5em;
+        font-size: 38px;
+    }
+    #my-title-slide {
+        width: 15em;
+    }
+    #fourth {
+        margin-top: 11.3em;
+    }
+    #container-1 {
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+    #card-1-project {
+        height: 50px;
+        width: 85px;
+        margin-left: 8px;
+        margin-top: 50px;
+        font-size: 10px;
+    }
+    #projects-main-content-container {
+        height: 400px;
+    }
+    #email-projects {
+        margin-top: 35.2em;
+        margin-left: 1.5em;
+    }
 }
 
 
@@ -584,5 +655,76 @@ body {
 /* Landscape */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-    #primary {}
+        #primary {
+        margin-top: 6em;
+        margin-right: 0em;
+        margin-left: .1em;
+        height: 600px;
+        width: 350px;
+    }
+    #top-id {
+        flex-wrap: wrap;
+        width: 230px;
+        margin-top: 5px;
+        height: 10px;
+    }
+    #secondary {
+        margin-top: 35.2em;
+        margin-left: 1.5em;
+    }
+    #side-nav-id {
+        height: 600px;
+    }
+    #git-tooltip {
+        margin-top: 12em;
+    }
+    #container-1 {
+        margin-top: 3em;
+    }
+    #top-id {
+        font-size: 15px;
+        margin-left: 1px;
+    }
+    #projects-btn {
+        margin-right: 0em;
+        margin-left: 0px;
+    }
+    #about-btn {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #third {
+        margin-left: .5em;
+        font-size: 45px;
+        width: 450px;
+    }
+    #text-box-slide {
+        margin-left: 0px;
+        width: 5em;
+        font-size: 38px;
+    }
+    #my-title-slide {
+        width: 15em;
+    }
+    #fourth {
+        margin-top: 11.3em;
+    }
+    #container-1 {
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+    #card-1-project {
+        height: 50px;
+        width: 85px;
+        margin-left: 8px;
+        margin-top: 50px;
+        font-size: 10px;
+    }
+    #projects-main-content-container {
+        height: 400px;
+    }
+    #email-projects {
+        margin-top: 35.2em;
+        margin-left: 1.5em;
+    }
 }
