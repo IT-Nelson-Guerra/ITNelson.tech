@@ -381,7 +381,7 @@ body {
 .logo-top {
     height: 35px;
     width: 35px;
-    background-image: url(/images/n-letter.png);
+    background-image: url(images/n-letter.png);
     background-size: 35px;
     background-repeat: no-repeat;
     margin-top: 8px;
